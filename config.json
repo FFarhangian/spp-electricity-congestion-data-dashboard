@@ -1,0 +1,7 @@
+{
+  "year": 2020,
+  "base_url": "https://portal.spp.org/pages/da-binding-constraints",
+  "lmp_url": "https://portal.spp.org/pages/da-lmp-by-location",
+  "bc_wait_time": 30,
+  "lmp_wait_time": 300
+}
