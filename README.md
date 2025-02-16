@@ -12,7 +12,8 @@ The project involved four key phases:
 
 ### **Part 1 – Data Collection**
 - Collected historical data from the SPP portal ([Binding Constraints](https://portal.spp.org/pages/da-binding-constraints) and [LMP by Location](https://portal.spp.org/pages/da-lmp-by-location)) using `DataCollection.py`. **Config File:** `config.json` is used for URLs, output directories, and dataset management.
-  ```bash
+
+```json
 {
   "year": 2020,
   "base_url": "https://portal.spp.org/pages/da-binding-constraints",
