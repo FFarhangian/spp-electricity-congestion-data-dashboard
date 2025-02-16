@@ -24,7 +24,9 @@ The project involved four key phases:
 ```
 
 ### **Part 2 – Data Processing**
-- Processed collected data to create `DA_BC_HOURLY.CSV` and `DA_LMP_HOURLY.CSV` using `DataProcessing.py`.
+- Processed collected data to create `DA_BC_HOURLY.CSV` and `DA_LMP_HOURLY.CSV` using `DataProcessing.py`. This script accepts command-line arguments for input directories, output directories, and output filenames.
+  - **Command Example:** `python DataProcessing.py --input_dir ./data/BC/2020 --output_dir ./Results --output_file DA_BC_HOURLY.CSV`
+  - **Arguments:** `--input_dir`, `--output_dir`, `--output_file`
 
 ### **Part 3 – Database Creation**
 - Created a local SQLite database with daily and monthly aggregated tables for BC and LMP data using `DatabaseSetup.py`.
