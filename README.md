@@ -3,11 +3,9 @@
 This project is a Python-based dashboard solution for analyzing and visualizing historical congestion data in the SPP electricity market.
 
 ## Definitions
-**Day-Ahead Market (DAM):** A market determining an LMP per node for each hour of the day, one day in advance.
-
-**Hour Ending:** Identifying the 24 hours of the day by their end, e.g., HE2 from 1:01 to 2:00.
-
-**Locational Marginal Price (LMP):** Price associated with 1 MW of electricity, composed of energy, congestion, and losses.
+- **Day-Ahead Market (DAM):** A market determining an LMP per node for each hour of the day, one day in advance.
+- **Hour Ending:** Identifying the 24 hours of the day by their end, e.g., HE2 from 1:01 to 2:00.
+- **Locational Marginal Price (LMP):** Price associated with 1 MW of electricity, composed of energy, congestion, and losses.
 
 ## Project Overview
 The project involved four key phases:
