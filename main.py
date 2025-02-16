@@ -1,14 +1,19 @@
-import sqlite3
+import os
+import subprocess
 
-def show_tables(db_name="energy_data.db"):
-    conn = sqlite3.connect(db_name)
-    cursor = conn.cursor()
-    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
-    tables = cursor.fetchall()
-    print("Tables in database:")
-    for table in tables:
-        print(table[0])
-    conn.close()
+# Step 1: Data Collection
+print("Running Data Collection...")
+subprocess.run(["python", "DataCollection.py"])
 
-if __name__ == "__main__":
-    show_tables()
+# Step 2: Data Processing
+print("Running Data Processing...")
+subprocess.run(["python", "DataProcessing.py", "--input_dir", "./data/BC/2020", "--output_dir", "./Results", "--output_file", "DA_BC_HOURLY.CSV"])
+subprocess.run(["python", "DataProcessing.py", "--input_dir", "./data/lmp/2020", "--output_dir", "./Results", "--output_file", "DA_LMP_HOURLY.CSV"])
+
+# Step 3: Database Setup
+print("Setting up Database...")
+subprocess.run(["python", "DatabaseSetup.py"])
+
+# Step 4: Run Dashboard
+print("Starting Dashboard...")
+subprocess.run(["python", "Dashboard.py"])
