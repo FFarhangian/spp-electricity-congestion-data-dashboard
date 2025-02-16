@@ -27,26 +27,30 @@ The project involved four key phases:
 ## How to Run the Project
 
 ### **Steps to Run**
-```bash
-# Clone the repository
-git clone https://github.com/FFarhangian/PathCongestionDashboard.git
-cd PathCongestionDashboard
 
-# Create and activate virtual environment
+# Clone the repository
+```bash
+git clone https://github.com/FFarhangian/MegEnergySolution.git
+cd MegEnergySolution
+```
+
+# Create and activate the virtual environment
+
+```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 .venv\\Scripts\\activate   # Windows
+```
 
 # Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 # Run the project step by step using main.py
+
+```bash
 python main.py
 ```
 
-### **Project Files**
-- `DataCollection.py`: Data collection and merging
-- `DatabaseSetup.py`: Database creation
-- `Dashboard.py`: Dash application
-- `main.py`: Sequentially runs all scripts for full project setup
-- `requirements.txt`: Packages required
