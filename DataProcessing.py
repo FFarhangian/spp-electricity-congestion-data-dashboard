@@ -19,12 +19,3 @@ def merge_csv_files():
 
 if __name__ == "__main__":
     merge_csv_files()
-
-
-# ./data/BC/2020
-# ./data/lmp/2020
-
-# ./Results
-
-# DA_BC_HOURLY.CSV
-# DA_LMP_HOURLY.CSV
