@@ -28,13 +28,13 @@ The project involved four key phases:
 
 ### **Steps to Run**
 
-# Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/FFarhangian/MegEnergySolution.git
 cd MegEnergySolution
 ```
 
-# Create and activate the virtual environment
+### Create and activate the virtual environment
 
 ```bash
 python -m venv .venv
@@ -42,13 +42,13 @@ source .venv/bin/activate  # Linux/Mac
 .venv\\Scripts\\activate   # Windows
 ```
 
-# Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# Run the project step by step using main.py
+### Run the project step by step using main.py
 
 ```bash
 python main.py
