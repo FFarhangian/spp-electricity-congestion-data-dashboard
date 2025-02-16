@@ -26,14 +26,6 @@ The project involved four key phases:
 
 ## How to Run the Project
 
-### **Requirements**
-- Python 3.10
-- Packages (in `requirements.txt`):
-  - dash==2.9.3
-  - pandas==2.2.0
-  - sqlite3
-  - plotly==5.16.1
-
 ### **Steps to Run**
 ```bash
 # Clone the repository
