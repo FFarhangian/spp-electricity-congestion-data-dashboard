@@ -11,7 +11,7 @@ This project is a Python-based dashboard solution for analyzing and visualizing 
 The project involved four key phases:
 
 ### **Part 1 – Data Collection**
-- Collected historical data from the SPP portal ([Binding Constraints](https://portal.spp.org/pages/da-binding-constraints) and [LMP by Location](https://portal.spp.org/pages/da-lmp-by-location)) using `DataCollection.py`.
+- Collected historical data from the SPP portal ([Binding Constraints](https://portal.spp.org/pages/da-binding-constraints) and [LMP by Location](https://portal.spp.org/pages/da-lmp-by-location)) using `DataCollection.py`. **Config File:** `config.json` is used for URLs, output directories, and dataset management.
 
 ### **Part 2 – Data Processing**
 - Processed collected data to create `DA_BC_HOURLY.CSV` and `DA_LMP_HOURLY.CSV` using `DataProcessing.py`.
