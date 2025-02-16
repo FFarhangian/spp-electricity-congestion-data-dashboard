@@ -16,4 +16,4 @@ subprocess.run(["python", "DatabaseSetup.py"])
 
 # Step 4: Run Dashboard
 print("Starting Dashboard...")
-subprocess.run(["python", "Dashboard.py"])
+subprocess.run(["gunicorn", "Dashboard:app.server", "--bind", "0.0.0.0:8080"])
