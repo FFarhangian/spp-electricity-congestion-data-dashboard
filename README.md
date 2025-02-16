@@ -2,6 +2,9 @@
 
 This project is a Python-based dashboard solution for analyzing and visualizing historical congestion data in the SPP electricity market.
 
+![Demo](MegEnergySolutions.gif)
+
+
 ## Definitions
 - **Day-Ahead Market (DAM):** A market determining an LMP per node for each hour of the day, one day in advance.
 - **Hour Ending:** Identifying the 24 hours of the day by their end, e.g., HE2 from 1:01 to 2:00.
