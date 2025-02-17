@@ -46,8 +46,8 @@ The project involved four key phases:
 
 ### Clone the repository
 ```bash
-git clone https://github.com/FFarhangian/MegEnergySolution.git
-cd MegEnergySolution
+git clone https://github.com/FFarhangian/MagEnergySolution.git
+cd MagEnergySolution
 ```
 
 ### Create and activate the virtual environment
