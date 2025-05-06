@@ -1,6 +1,6 @@
-# MagEnergySolution
+# spp-electricity-congestion-data-dashboard
 
-This project is a Python-based dashboard solution for analyzing and visualizing historical congestion data in the SPP electricity market.
+This project is a Python-based dashboard solution for analyzing and visualizing historical congestion data in the SPP (Southwest Power Pool) electricity market.
 
 ![Demo](MegEnergySolutions.gif)
 
